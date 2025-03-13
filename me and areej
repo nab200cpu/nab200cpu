@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 Month Anniversary</title>
+    <style>
+        body {
+            background: url('path-to-your-picture.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: red;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .animation-container {
+            position: relative;
+            display: inline-block;
+            animation: float 3s infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+        .message {
+            margin-top: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .banner {
+            margin-top: 30px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .heart {
+            color: red;
+            font-size: 48px;
+        }
+        audio {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation-container">
+        <img src="path-to-white-tulips.png" alt="White Tulips">
+        <img src="path-to-red-rose.png" alt="Red Rose">
+        <img src="path-to-vanilla-candles.png" alt="Vanilla Candles">
+    </div>
+    <div class="message">
+        <p>Hey beautiful, I'm so glad it's been six beautiful months. Every day and moment has felt like a blessing since I've been with you. Every up and down, and even when we don't talk, stuff was super confusing and magical when we started dating. I know we started off as crazy, but I love that crazy. It felt like a fairy tale being in Vegas with you, those nights staying up at Starbucks and talking, telling you everything about myself. It made me fall so in love; it was so magical and gave me butterflies in my stomach.</p>
+        <p>I love you so much, gorgeous girl. <span class="heart">❤️</span></p>
+        <p class="banner">Areej, will you have dinner with me on Friday the 14th at 6 PM Utah time?</p>
+    </div>
+    <audio controls>
+        <source src="path-to-your-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script>
